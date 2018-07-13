@@ -3,6 +3,8 @@
  * oscP5message by andreas schlegel
  * example shows how to create osc messages.
  * oscP5 website at http://www.sojamo.de/oscP5
+ 
+ Modified by James Hosken July 2018
  */
  
 import oscP5.*;

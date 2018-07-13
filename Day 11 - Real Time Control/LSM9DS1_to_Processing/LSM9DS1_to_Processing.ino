@@ -5,6 +5,8 @@ Jim Lindblom @ SparkFun Electronics
 Original Creation Date: April 30, 2015
 https://github.com/sparkfun/LSM9DS1_Breakout
 
+Modified James Hosken July 2018
+
 The LSM9DS1 is a versatile 9DOF sensor. It has a built-in
 accelerometer, gyroscope, and magnetometer. Very cool! Plus it
 functions over either SPI or I2C.
@@ -84,6 +86,8 @@ static unsigned long lastPrint = 0; // Keep track of print time
 // http://www.ngdc.noaa.gov/geomag-web/#declination
 #define DECLINATION 1.4 // Declination (degrees) in Derbyshire, UK.
 
+
+//A little bit of averaging to try filter out some noise
 float rollCumulative = 0;
 float pitchCulumative = 0;
 float headingCumulative = 0;
