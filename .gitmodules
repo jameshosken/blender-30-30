@@ -1,0 +1,3 @@
+[submodule "Day 11 - Real Time Control/p5osc"]
+	path = Day 11 - Real Time Control/p5osc
+	url = https://github.com/genekogan/p5js-osc.git
