@@ -1,0 +1,17 @@
+Blender > Arduino > OSC
+
+ArduinoOSC
+https://www.arduinolibraries.info/libraries/osc
+
+Blender OSC
+https://github.com/JPfeP/AddOSC 
+
+p5 Steps: 
+- Download p5.js
+- Clone genekogan's p5osc lib to your folder
+- cd to p5osc, then npm install
+- node bridge.js
+
+Processing Steps
+- Download processing
+- Download p5osc

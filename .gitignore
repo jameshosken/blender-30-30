@@ -10,10 +10,14 @@
 */[Dd]elivery/
 */[Aa]rchive/
 */cache_fluid/
+*/Premiere Files
+*/Render
+*/Renders
 
 #Specific Folders
 */p5/
 */p5osc/
+
 
 #Unity Stuff:
 *[Ll]ibrary/
